@@ -16,7 +16,7 @@ const AppTable = () => {
             <tr
               className={`text-white border-b-2 bg-[${constants.colors.primary}] text-left h-[4rem]`}
             >
-              <th className=" py-2 px-4">Child's Name</th>
+              <th className=" py-2 px-4">Childs Name</th>
               <th className=" py-2 px-4">Reference</th>
               <th className=" py-2 px-4">Action</th>
             </tr>
@@ -36,6 +36,7 @@ const AppTable = () => {
                 <td className=" py-2 px-4 text-sm">
                   <AppModal
                     isOpen={modal}
+                    // eslint-disable-next-line react/no-children-prop
                     children={<DisplayChildInfo />}
                     onClose={() => setModal(false)}
                     component={

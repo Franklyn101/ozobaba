@@ -36,6 +36,7 @@ const AppTable = () => {
                 <td className=" py-2 px-4 text-sm">
                   <AppModal
                     isOpen={modal}
+                    // eslint-disable-next-line react/no-children-prop
                     children={<FeedbackInfo />}
                     onClose={() => setModal(false)}
                     component={

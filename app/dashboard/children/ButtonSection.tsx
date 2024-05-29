@@ -15,6 +15,7 @@ export default function ButtonSection({}: Props) {
     <div className="w-full flex justify-end">
       <AppModal
         isOpen={modal}
+        // eslint-disable-next-line react/no-children-prop
         children={<CreateForm />}
         onClose={() => setModal(false)}
         component={
