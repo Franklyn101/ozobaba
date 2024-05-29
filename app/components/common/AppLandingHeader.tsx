@@ -21,8 +21,7 @@ export default function AppLandingHeader({}: Props) {
         <LandingMenu />
         <div className={`cursor-pointer flex  ${styles.nav_button}`}>
           <div className="flex items-center flex-row gap-1">
-            <MdiLightLogin />
-            <li>Login</li>
+            <Tabs href="/login" icon={<MdiLightLogin />} title="login" />
           </div>
         </div>
       </div>

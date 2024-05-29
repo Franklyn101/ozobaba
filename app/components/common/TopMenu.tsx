@@ -4,6 +4,7 @@ import React from "react";
 import styles from "../../components/common/style.module.css";
 import { MdiRegister } from "@/app/icons/MdiRegister";
 import { MdiAbout } from "@/app/icons/MdiAbout";
+import Tabs from "./Tabs";
 
 type Props = {};
 
@@ -25,8 +26,8 @@ export default function TopMenu({}: Props) {
         </Link>
         <div className={`cursor-pointer flex  ${styles.nav_button}`}>
           <div className="flex items-center flex-row gap-1">
-            <MdiRegister />
-            <li>Sign-up</li>
+          <Tabs href="/signup" icon={<MdiRegister />} title="Sign-up" />
+
           </div>
         </div>
       </div>
