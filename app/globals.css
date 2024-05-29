@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Jost";
+  src: url("../Jost-Regular.ttf") format("ttf");
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Jost";
+}
