@@ -17,7 +17,7 @@ export default function RowCard2({}: Props) {
         />
         <CardNoShadow
           // img={ImageCard2}
-          caption="Lorem ipsum dolor sit amet consectetur. Tellus pulvinar cras sed posuere duis. Velit euismod quis sed ut quis. Elit sit facilisis viverra facilisi adipiscing. Tortor pellentesque est dictumst pellentesque amet vitae faucibus.Lorem ipsum dolor sit amet consectetur. Tellus pulvinar cras sed posuere duis. Velit euismod quis sed ut quis. Elit sit facilisis viverra facilisi adipiscing. Tortor pellentesque est dictumst pellentesque amet vitae faucibus.Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Tellus pulvinar cras sed posuere duis. Velit euismod quis sed ut quis. Elit sit "
+          caption="It describes a strategy focused on improving processes, increasing quality, and cutting waste.To acheive continous delivery, a business should apply te continous improvement mindset"
           title="Continuous Improvement"
         />
       </div>
