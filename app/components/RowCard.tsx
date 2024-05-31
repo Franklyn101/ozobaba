@@ -12,7 +12,7 @@ export default function RowCard({}: Props) {
       <div className=" w-full grid grid-cols-1 md:grid-cols-2 gap-8">
         <CardNoShadow
           // img={ImageCard}
-          caption="Lorem ipsum dolor sit amet consectetur. Tellus pulvinar cras sed posuere duis. Velit euismod quis sed ut quis. Elit sit facilisis viverra facilisi adipiscing. Tortor pellentesque est dictumst pellentesque amet vitae faucibus.Lorem ipsum dolor sit amet consectetur. Tellus pulvinar cras sed posuere duis. Velit euismod quis sed ut quis. Elit sit facilisis viverra facilisi adipiscing. Tortor pellentesque est dictumst pellentesque amet vitae faucibus.Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit  "
+          caption="it gives all children the same oppurtunity to access and participate in all parts of the service; Adjusts and tailors activities towards all children unique needs; including the child,their family and support team in decision making, makes the child's voice and prefrences a priority."
           title="Child-Centric Approach:"
         />
         <CardNoShadow
